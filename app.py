@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("mrandom_forest_model.pkl")
 
 
 @app.route("/")
